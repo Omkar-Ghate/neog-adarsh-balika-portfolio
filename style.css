@@ -39,8 +39,7 @@ a{
 .container-center{
     max-width:600px;
     margin: 0.5rem auto 0 auto;
-    
-    text-align: center;
+    text-align: justify;
 }
 .link{
     text-decoration: none;
