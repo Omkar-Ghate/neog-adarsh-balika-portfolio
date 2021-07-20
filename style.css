@@ -170,6 +170,7 @@ footer ul{
 .btnDiv{
    text-align: center;
 }
+
 /*Projects Page*/
 .projects{
     max-width: 44%;
@@ -206,4 +207,14 @@ footer ul{
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem;
+}
+
+.btnBlogs{
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+    width: 5rem;
+    font-size: 1.1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
