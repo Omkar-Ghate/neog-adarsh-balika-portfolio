@@ -166,6 +166,9 @@ footer ul{
     padding: 0.5rem 1rem;
 }
 
+.btnDiv{
+   text-align: center;
+}
 /*Projects Page*/
 .projects{
     max-width: 44%;
