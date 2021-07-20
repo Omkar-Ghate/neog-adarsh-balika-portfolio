@@ -16,6 +16,7 @@ body{
 }
 :root{
     --primary-color:#27563d;
+    --primary-light-color: #b0e0c8;
     --dark-grey:#B0B0B0;
     --light-grey:#F3F4F6;
 }
@@ -148,7 +149,7 @@ footer ul{
 }
 .btn{
     background-color: var(--primary-color);
-    border: 1px solid white;
+    border: 1px solid transparent;
     width: 7rem;
     font-size: 1.1rem;
     margin: 1rem;
@@ -187,4 +188,22 @@ footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Blogs Page */
+.blogs{
+    max-width: 44%;
+    margin:  1rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--primary-light-color) ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.blogs-ow{
+    max-width: 44%;
+    margin:  1rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
 }
