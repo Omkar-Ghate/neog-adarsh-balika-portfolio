@@ -125,10 +125,6 @@ a{
     text-align: center;
     padding: 2 rem;
 }
-.footer-header{
-    font-weight: bold;
-    font-size: large;
-}
 
 /* footer */
 footer{
@@ -136,6 +132,10 @@ footer{
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 footer .link{
     color: white;
