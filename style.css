@@ -219,3 +219,22 @@ footer ul{
     border-radius: 0.5rem;
     padding: 0.5rem 0.5rem;
 }
+
+/* Responsive */
+@media (max-width: 350px){
+    .social-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 390px){
+    .nav-pills{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+}
