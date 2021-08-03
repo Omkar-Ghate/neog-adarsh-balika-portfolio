@@ -105,8 +105,8 @@ a{
     text-align: center;
 }
 .hero-img{
-    max-width: 300px;
-
+    width: 100%;
+    max-width: 24rem;
     margin: auto;
     
 }
@@ -179,6 +179,7 @@ footer ul{
     font-size: 1.2rem;
 }
 .projectImg{
+    width: 100%;
     max-width: 24rem;
     height: 16rem;
     margin: auto;
