@@ -4,6 +4,7 @@
 html{
     margin: 0px;
     padding: 0px 0px;
+    scroll-behavior: smooth;
 }
 .no-margin{
     padding: 0px;
@@ -182,7 +183,14 @@ footer ul{
 }
 
 /*Projects Page*/
+.topBtn{
+    position: fixed;
+    display: inline-block;
+    bottom: 3rem;
+    right: 3rem;
+}
 .projects{
+    transition: 0.2s ease-in;
     max-width: 44%;
     margin:  1rem auto;
     text-align: center;
@@ -248,7 +256,11 @@ footer ul{
     .nav-pills{
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
+    }
+}
+@media (max-width: 500px){
+    .topBtn{
+        bottom: 0.5rem;
+        right: 0.5rem;
     }
 }
